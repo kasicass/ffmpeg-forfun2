@@ -43,5 +43,13 @@ github.com/
 *.p
 *.d
 *.a
+*.dll
+*.lib
+*.def
+*.exp
+*.ilk
+*.ver
+*.version
+*.pc
 output/
 

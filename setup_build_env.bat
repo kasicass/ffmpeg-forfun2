@@ -7,6 +7,4 @@ set PATH=%MYTOOLS_DIR%;%PATH%
 D:\MinGW\msys\1.0\msys.bat
 
 :: compile ffmpeg in mingw
-:: ./configure toolchain=msvc
-:: make
-:: make install
+:: sh configure_ffmpeg.sh

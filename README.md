@@ -10,6 +10,7 @@
 * Install MinGW
   * https://sourceforge.net/projects/mingw/
   * Basic Setup, `mingw-developer-toolkit`
+  * rename `MinGW\msys\1.0\bin\link.exe` to `link-mingw.exe` (don't conflict with link.exe of vs2017)
 * Start vs2017 cmd.exe
   * `vcvarsall.bat amd64`
   * Run `setup_build_env.bat` from cmd.exe

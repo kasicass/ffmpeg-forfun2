@@ -16,3 +16,4 @@ rm -rf ffmpeg-4.3.2/libavformat/demuxer_list.c
 rm -rf ffmpeg-4.3.2/libavformat/muxer_list.c
 rm -rf ffmpeg-4.3.2/libavformat/protocol_list.c
 rm -rf ffmpeg-4.3.2/libavutil/avconfig.h
+rm -rf ffmpeg-4.3.2/libavutil/ffversion.h
