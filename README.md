@@ -7,8 +7,9 @@
 
 ## BUILD
 
-* Install `https://www.msys2.org/`
-  * first run msys2, `pacman -Syu`
-  * restart msys2, `pacman -Su`
-  * `pacman -S --needed base-devel mingw-w64-x86_64-toolchain`
-* See `setup_build_env.bat` to build ffmpeg.
+* Install MinGW
+  * https://sourceforge.net/projects/mingw/
+  * Basic Setup, `mingw-developer-toolkit`
+* Start vs2017 cmd.exe
+  * `vcvarsall.bat amd64`
+  * Run `setup_build_env.bat` from cmd.exe

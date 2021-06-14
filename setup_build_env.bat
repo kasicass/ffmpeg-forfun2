@@ -1,10 +1,10 @@
 
-:: set PATH & INCLUDE
+:: set PATH
 set MYTOOLS_DIR=%~dp0\tools\
 set PATH=%MYTOOLS_DIR%;%PATH%
 
-:: open msys2
-D:\msys64\msys2_shell.cmd -mingw64
+:: open msys.bat
+D:\MinGW\msys\1.0\msys.bat
 
 :: compile ffmpeg in mingw
 :: ./configure toolchain=msvc
